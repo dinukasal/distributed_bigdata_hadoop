@@ -52,7 +52,6 @@ public static class ReduceForAvgById extends Reducer<Text, FloatWritable, Text, 
 {
 public void reduce(Text word, Iterable<FloatWritable> values, Context con) throws IOException, InterruptedException
 {
-	// ??? FloatWritable avg = new FloatWritable(0);
 
 	float sum = 0;	
 	int count = 0;	
@@ -62,7 +61,6 @@ public void reduce(Text word, Iterable<FloatWritable> values, Context con) throw
 		sum += Float.parseFloat(value.toString());
 		count += 1;
 
-		// ??? avg += value/values.size()
    	}
 
 	float avg = sum / count;

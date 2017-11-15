@@ -10,7 +10,7 @@ $HADOOP_HOME/bin/hadoop fs -mkdir input_dir
 printf "\n"
 
 echo "add csv file to input_dir..."
-$HADOOP_HOME/bin/hadoop fs -put /home/bibi/Desktop/HADOOP/distributed.csv input_dir 
+$HADOOP_HOME/bin/hadoop fs -put distributed.csv input_dir 
 printf "\n"
 
 echo "check files in input_dir..."
