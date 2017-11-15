@@ -1,0 +1,16 @@
+JAVA ==============================
+https://askubuntu.com/questions/459900/how-to-find-my-current-java-home-in-ubuntu
+https://poweruphosting.com/blog/install-java-ubuntu/
+sudo apt-get install openjdk-8-jre
+javac install
+export JAVA_HOME
+export HADOOP_HOME=
+rm -rf lampp
+
+HADOOP ===========================
+https://www.digitalocean.com/community/tutorials/how-to-install-hadoop-in-stand-alone-mode-on-ubuntu-16-04
+
+
+https://www.tutorialspoint.com/hadoop/hadoop_mapreduce.htm
+https://dzone.com/articles/word-count-hello-word-program-in-mapreduce
+
