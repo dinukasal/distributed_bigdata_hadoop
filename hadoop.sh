@@ -18,10 +18,10 @@ $HADOOP_HOME/bin/hadoop fs -ls input_dir/
 printf "\n\n"
 
 echo "remove existing compiled folder..."
-rm -r compiled/ && mkdir compiled
+rm -rf compiled/ && mkdir compiled
 
 echo "remove existing output folder..."
-rm -r output_dir
+rm -rf output_dir
 
 echo "compile jar file"
 javac -classpath hadoop-core-1.2.1.jar:commons-cli-1.2.jar -d compiled AvgById.java
