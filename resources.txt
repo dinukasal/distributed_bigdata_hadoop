@@ -10,8 +10,9 @@ rm -rf lampp
 HADOOP ===========================
 https://www.digitalocean.com/community/tutorials/how-to-install-hadoop-in-stand-alone-mode-on-ubuntu-16-04
 
-
 https://www.tutorialspoint.com/hadoop/hadoop_mapreduce.htm
 https://dzone.com/articles/word-count-hello-word-program-in-mapreduce
 https://hadoop.apache.org/docs/stable/api/org/apache/hadoop/mapreduce/Mapper.html
 https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html
+https://www.tikalk.com/java/WordCountAverage/
+https://www.programcreek.com/java-api-examples/index.php?api=org.apache.hadoop.io.FloatWritable
