@@ -14,3 +14,4 @@ https://www.digitalocean.com/community/tutorials/how-to-install-hadoop-in-stand-
 https://www.tutorialspoint.com/hadoop/hadoop_mapreduce.htm
 https://dzone.com/articles/word-count-hello-word-program-in-mapreduce
 https://hadoop.apache.org/docs/stable/api/org/apache/hadoop/mapreduce/Mapper.html
+https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html
